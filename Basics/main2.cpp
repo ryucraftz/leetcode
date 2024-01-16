@@ -9,23 +9,23 @@ int main()
     {
         cout << "Grade is F";
     }
-    if (marks >= 25 && marks <= 44)
+   else if ( marks <= 44)
     {
         cout << "Grade is E";
     }
-    if (marks >= 45 && marks <= 49)
+    else if ( marks <= 49)
     {
         cout << "Grade is D";
     }
-    if (marks >= 50 && marks <= 59)
+    else if ( marks <= 59)
     {
         cout << "Grade is C";
     }
-    if (marks >= 60 && marks <= 79)
+    else if ( marks <= 79)
     {
         cout << "Grade is B";
     }
-    if (marks >= 80 && marks <= 100)
+    else if ( marks <= 100)
     {
         cout << "Grade is A";
     }
